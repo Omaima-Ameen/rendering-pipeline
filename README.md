@@ -13,9 +13,7 @@ That whole process is called the **rendering pipeline** , that's it !!
 
 -------------------
 
-## The Steps (In Simple Words)
-
-Here’s what happens behind the scenes, step by step:  
+## Here’s what happens behind the scenes 
 
 **1) JavaScript Execution**  
 - The browser runs your JS code.  
