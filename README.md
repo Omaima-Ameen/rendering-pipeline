@@ -1,7 +1,5 @@
 # Understanding the Browser Rendering Pipeline
 
-Heyy 
-
 I wanted to know **how things actually work on the web**, so I started digging into the under the hood stuff.  
 
 This is a little space where I’m documenting what I learned about the **browser rendering pipeline**. If you’re someone who likes understanding the fundamentals rather than just memorizing syntax, this might help you.  
@@ -9,7 +7,7 @@ This is a little space where I’m documenting what I learned about the **browse
 --------------------
 
 
-See, Whenever something changes on a web page like JavaScript updating text, CSS changing colors, or an image loading—the browser has to **turn code into pixels on your screen**.  
+See, Whenever something changes on a web page like JavaScript updating text, CSS changing colors, or an image loading, the browser has to **turn code into pixels on your screen**.  
 
 That whole process is called the **rendering pipeline** , that's it !! 
 
@@ -19,24 +17,24 @@ That whole process is called the **rendering pipeline** , that's it !!
 
 Here’s what happens behind the scenes, step by step:  
 
-**1️⃣ JavaScript Execution**  
+**1) JavaScript Execution**  
 - The browser runs your JS code.  
 - This might touch the DOM, change styles, or manipulate data.  
 
-**2️⃣ Style Calculation**  
+**2) Style Calculation**  
 - The browser figures out **what each element should look like**: colors, sizes, fonts, etc.  
 - Even a small change, like a button color, triggers this step.  
 
-**3️⃣ Layout / Reflow**  
+**3) Layout / Reflow**  
 - The browser decides **where everything goes** on the page.  
 - Measures positions, widths, heights, margins… everything.  
 - This is called **layout** or **reflow**, and it can be expensive if many elements change.  
 
-**4️⃣ Paint**  
+**4) Paint**  
 - Now the browser **fills in pixels**: colors, borders, text, shadows.  
 - This is where things actually start appearing visually.  
 
-**5️⃣ Compositing**  
+**5) Compositing**  
 - Finally, the browser takes all painted layers and **composites them onto the screen**.  
 - This is what you end up seeing smooth animations, updated content, everything in place.  
 
