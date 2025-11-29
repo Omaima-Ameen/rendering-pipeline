@@ -1,6 +1,6 @@
 # Understanding the Browser Rendering Pipeline
 
-Hey there! 👋  
+Heyy 
 
 I wanted to know **how things actually work on the web**, so I started digging into the under the hood stuff.  
 
@@ -60,11 +60,11 @@ Here’s what happens behind the scenes, step by step:
 
 
 
-JS Execution
+    JS Execution
 
      |
      
- Style Calculation
+    Style Calculation
  
      |
      
@@ -76,11 +76,11 @@ JS Execution
     
      |
      
- Compositing
+    Compositing
  
      |
      
-   Screen
+    Screen
 
 
 
