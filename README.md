@@ -2,13 +2,12 @@
 
 Hey there! 👋  
 
-I wanted to know **how things actually work on the web**, so I started digging into the under-the-hood stuff.  
+I wanted to know **how things actually work on the web**, so I started digging into the under the hood stuff.  
 
 This is a little space where I’m documenting what I learned about the **browser rendering pipeline**. If you’re someone who likes understanding the fundamentals rather than just memorizing syntax, this might help you.  
 
 --------------------
 
-## What is the Rendering Pipeline?
 
 See, Whenever something changes on a web page like JavaScript updating text, CSS changing colors, or an image loading—the browser has to **turn code into pixels on your screen**.  
 
@@ -58,22 +57,30 @@ Here’s what happens behind the scenes, step by step:
 
 -------------
 
+
+
+
 JS Execution
+
      |
-     v
+     
  Style Calculation
+ 
      |
-     v
+     
     Layout
+    
      |
-     v
+     
     Paint
+    
      |
-     v
+     
  Compositing
+ 
      |
-     v
-   Screen!
+     
+   Screen
 
 
 
@@ -111,7 +118,8 @@ If you’re someone who:
 
 I’m still learning, so if I **missed something** or made a **mistake**, your contributions or feedback are more than welcome.  
 
-Feel free to **explore, fork, or open issues** if you want something explained here. I’ll keep expanding this as I learn more❤
+Feel free to **explore, fork, or open issues** if you want something explained here. I’ll keep expanding this as I learn more ❤
 
-## A Simple Diagram
+## THANKYOU !
+
 
